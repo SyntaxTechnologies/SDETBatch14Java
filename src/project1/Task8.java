@@ -9,7 +9,7 @@ public class Task8 {
 		// Write a Java Program to print the first 10 numbers of Fibonacci series
 		// 0 1 1 2 3 5 8 13 21
 		
-		Phone phone=new Phone();
+
 		int previous=0;
 		int currentNumber=1;
 		int nextNum=0;
