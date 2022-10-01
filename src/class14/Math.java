@@ -26,7 +26,7 @@ public class Math {
         System.out.println("***********");
         obj.printFiboSeries(10);*/
         obj.add(10,20);
-        // Break till 1:40
+        // Break till 1:42
 
     }
 }
