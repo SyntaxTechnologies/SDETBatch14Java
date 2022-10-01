@@ -11,5 +11,6 @@ public class Task2 {
         System.out.println("str = " + str);
         System.out.println(str.length());
 
+        //Break till 12:00
     }
 }
