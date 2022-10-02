@@ -55,7 +55,14 @@ When we should use local variables:
 
 Instance variables:
     Which are declared outside a block of code but inside a class are called instance variables.
+when we should use instance variables:
+    when we are planning to create multiple objects of a class, or we want to share something in multiple
+    methods we should go with instance variables. They occupy the memory for longer as compared to
+    local variables.
 static variables:
     if an instance variable has a keyword static is called a static variable.
+When we should use static variables.
+    When we need to share something across the objects. we use static variables.
+    but it occupies the memory for longest amount of time.
 
 
