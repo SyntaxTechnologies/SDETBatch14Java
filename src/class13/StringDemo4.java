@@ -7,7 +7,7 @@ public class StringDemo4 {
 	public static void main(String[] args) {
 	
 		String str="Batch 14 is really good";
-		String [] arr=str.split("\s");
+		String [] arr=str.split(" ");
 		System.out.println(Arrays.toString(arr));
 		System.out.println(arr[4]);
 		
