@@ -1,0 +1,6 @@
+String Methods:
+    String is the most widely used class in java. We can
+    use it to store text based data.
+Methods in Java:
+    Method in java is simple a block of code or some java
+    statements put together in a block.
