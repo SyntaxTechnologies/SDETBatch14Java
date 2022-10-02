@@ -16,6 +16,6 @@ public class HondaBike {
         System.out.println(HondaBike.noOfTyres);
         HondaBike ybr=new HondaBike();
         ybr.model="ybr100";
-        ybr.printTotalDistance(10,2);
+        ybr.printTotalDistance(10,20);
     }
 }
