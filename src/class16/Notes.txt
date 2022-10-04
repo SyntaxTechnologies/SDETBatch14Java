@@ -1,0 +1,50 @@
+Types of variables in java with respect to their scope:
+    There are three types of variables in java with respect to their
+    scope. Local instance and static.
+Local variables:
+    If a variable is declared inside a block of code like method, loop,
+    if-condition they are called local variables.
+Up-Side of a local variable:
+    The upside is they exist for a very short amount of time in the memory.
+    which means other programs on our computer can use that memory.
+Down-Side of local variables:
+    Their scope is very limited. only inside that block in which they are created.
+    we can't access them outside that block.
+When to use:
+    We should always try to use local variable over instance variables whenever it
+    is possible.
+Instance variables:
+    The variables which are declared inside a class but outside of block of code are called
+    instance variables.
+Up-side:
+    We can use these variables inside any block of code that is inside that class.
+
+DownSide:
+    They occupy the memory for longer than a local variable.
+When we should use instance variables:
+    1) When we need to share a value between two or more methods then we should go with the instance variable.
+    2) When we are planing to create multiple objects of a class and it is possible that all the objects can have
+    a different value for that variable.
+static variable:
+    An instance variable with static keyword is called a static variable.
+Up-side:
+    We can share data across the objects with the help of static variable.
+Down-side:
+    They occupy the memory for the longest period.
+When to use:
+    When we want to share something across all the methods.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
