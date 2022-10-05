@@ -35,6 +35,39 @@ When to use:
     When we want to share something across all the methods.
 ==================================================================
 Access Modifiers:
+    Access modifiers are keywords which control the access of fields or methods or the class itself.
+    There are four access levels and three access modifier keywords. These are only applicable to
+    instance or static variable not to local variables.
+private:
+    Private is the most restricted one. if we use private keyword with any variable or method.
+    we can only access it within the same class.
+When we should use private access modifier.
+    We should always try to create variables as private.
+    The data that we store inside the private variables is secured.
+default access modifier:
+    Default is not a keyword. whenever we don't assign any access modifier keyword like private or
+    public Java assigns default access level to those variables or methods.
+    The variables or methods which have default access level can be accessed wihin the same class or in any other
+    class that is present inside the same package.
+Public access modifier:
+    Public access most unrestricted access modifier. Once used with an variable or method we can access that variable
+    or method anywhere in our project.
+Note:
+
+We can have only one public class in a file and the name of that class should match
+the name of the file.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
