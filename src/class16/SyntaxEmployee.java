@@ -1,6 +1,6 @@
 package class16;
 
-public class Task1 {
+public class SyntaxEmployee {
     /*
     Create a Class called SyntaxEmployee:
 Create three  variables  empID , salary and set the CEO to “Sumair”

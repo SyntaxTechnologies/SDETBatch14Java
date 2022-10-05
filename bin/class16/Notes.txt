@@ -33,8 +33,6 @@ Down-side:
     They occupy the memory for the longest period.
 When to use:
     When we want to share something across all the methods.
-==================================================================
-Access Modifiers:
 
 
 
