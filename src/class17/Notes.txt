@@ -13,4 +13,6 @@ Protected:
 Public:
      When the public access modifier is applied to an entity that entity can be accessed anywhere inside that project.
      Usually the classes itself and methods are declared as public.
-
+Note:
+If we are inside the same class we can call a method inside another by just writing its name. But we need
+to take care that these methods are both either static or non-static.
