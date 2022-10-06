@@ -1,0 +1,16 @@
+Access Modifiers:
+    Access modifiers are keywrods in java that control the access of methods fields or the class itself.
+    There are four access levels.
+Private:
+    If something has the access level of private that thing can only be accessed within the same class. This acess
+    level is the most restricted one. For fields/properties/state of a class, we should always try to have private access level so that the data of a class is
+    secured.
+Default:
+    Default is not a keyword. it's an access level. if we don't use any keyword with fields or methods java applies the dafault access
+    level automatically. Once applied we can access those entities within the same class as well as in any class within teh same package.
+Protected:
+    When applied entities can be accessed outside the package as well but only on the class that have parent-child relationship.
+Public:
+     When the public access modifier is applied to an entity that entity can be accessed anywhere inside that project.
+     Usually the classes itself and methods are declared as public.
+
