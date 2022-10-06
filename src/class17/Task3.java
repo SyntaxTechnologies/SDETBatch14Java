@@ -6,6 +6,7 @@ public class Task3 {
     Method should be available inside the class only where it was declared and executed by calling it is name.
      */
 
+    // Break 8:36
      private static String getVowels(String str){
      /*   String newStr=str.replaceAll("[^aeiouAEIOU]","");
         return newStr;*/
@@ -14,7 +15,7 @@ public class Task3 {
     }
 
     public static void main(String[] args) {
-
-        System.out.println(getVowels("Humera"));
+        String humera = getVowels("Humera");
+        System.out.println("humera = " + humera);
     }
 }
