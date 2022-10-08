@@ -1,7 +1,9 @@
 package class17;
 
-public class Dog {
-   private String name;
+import class18.Animal;
+
+public class Dog extends Animal {
+
    private String breed;
     private String color;
     private int age;

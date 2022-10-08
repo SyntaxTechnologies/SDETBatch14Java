@@ -1,11 +1,8 @@
 package class18;
 
-public class Dog {
-    String name;
-    String breed;
+public class Dog extends Animal {
+
     String color;
-    int age;
-    double weight;
     double height;
 
 
@@ -24,6 +21,7 @@ public class Dog {
         this.weight = weight;*/
         this(name, breed, color, age, weight);
         this.height = height;
+        //break till 1:30
     }
 
 
