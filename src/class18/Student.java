@@ -27,4 +27,6 @@ NOTE: please use different names for instance and local variables.
         new Student("Sabah",99,98,97.5).calculatePrintAvgGrade();
 
     }
+
+    // 12:00
 }
