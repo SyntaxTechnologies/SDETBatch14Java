@@ -8,7 +8,8 @@ Both Constructors are being executed
      */
     public static void main(String[] args) {
         Book headFirstJava=new Book("HeadIFirstJava","Kathy",12,13345);
-        Book dataStructures =new Book("HeadIFirstJava","Kathy",12);
+         new Book("HeadIFirstJava","Kathy",12);
+         //Break till 11:45
     }
 
 
