@@ -6,10 +6,10 @@ class Parrot extends Bird{
     }
 }
 class Crow extends Bird{
-    boolean isClever;
-    Crow(String name,String color,int age,double weight,boolean isClever){
+
+    Crow(String name,String color,int age,double weight ){
        super(name, color, age, weight);
-       this.isClever=isClever;
+
     }
 }
 class Sparrow extends Bird{

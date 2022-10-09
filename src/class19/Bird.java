@@ -25,7 +25,7 @@ class Test{
                 2,1);
         parrot.printInfo();
 
-        Crow crow=new Crow("crow","black",3,1.5,true);
+        Crow crow=new Crow("crow","black",3,1.5);
         crow.printInfo();
 
         Sparrow sparrow=new Sparrow("Sparrow","White",3,1.5);
