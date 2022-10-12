@@ -1,0 +1,10 @@
+Method Overloading:
+    Allows us to have same name methods or constructor but with different parameters.
+Why we should use MethodOverloading?
+    1) It gives the flexibility to the end user that he use the same method in different ways.
+    2) It helps us write cleaner code.
+What is the syntax to overload a Method?
+    Create different methods but keep the following points in mind.
+    1) we can overload a method by just passing different number of parameters.
+    2) we can overload a method by changing the data type of parameter.
+    3) we can overload a method by changing the sequence.
