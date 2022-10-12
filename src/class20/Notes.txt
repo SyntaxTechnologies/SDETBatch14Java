@@ -22,9 +22,20 @@ Hierarchical Inheritance:
     When we have one parent class and multiple child classes it's called Hierarchical Inheritance.
 Multiple Inheritance:
     One child and multiple parent classes. it is not supported by classes in java. It creates the diamond problem.
-
-
-
+Super keyword:
+    We use the super keyword to explicitly call the variable from the parent class. When we have
+    same name instance variable in child class and parent class.
+    We can also use the super keywrod to call the constructor of the parent class.
+==================================================================================
+MethodOverloading:
+    Method overloading allows us to create multiple methods in a class with same name.
+Why we should create multiple methods with same name?
+    It gives the end user flexibility.
+    The end user can call the same method with different parameters to get same or different results.
+How do we overload a method?
+    1) By passing different number of parameters.
+    2) By changing the datatype.
+    3) By changing the sequence of parameters
 
 
 
