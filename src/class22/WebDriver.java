@@ -37,12 +37,12 @@ class FireFox extends WebDriver{
 
 class Safari extends WebDriver{
     public void startBrowser(){
-        System.out.println("Starting the Safa");
+        System.out.println("Starting the Safari");
     }
     public void test(){
-        System.out.println("Perform the testing on Safa");
+        System.out.println("Perform the testing on Safari");
     }
     public void closeBrowser(){
-        System.out.println("Closing the Safa");
+        System.out.println("Closing the Safari");
     }
 }
