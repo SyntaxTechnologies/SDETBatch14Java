@@ -19,6 +19,7 @@ public class WebDriverTester {
         fireFox.closeBrowser();*/
 
 
+
         WebDriver[] browsers={new Chrome(),new Safari(),new FireFox()};
         for (WebDriver browser:browsers
              ) {
@@ -26,6 +27,13 @@ public class WebDriverTester {
             browser.test();
             browser.closeBrowser();
         }
+
+        for (int i = 0; i < browsers.length; i++) {
+            browsers[i].startBrowser();
+            browsers[i].test();
+            browsers[i].closeBrowser();
+        }
+        // Break till 1:50
 
 
 
