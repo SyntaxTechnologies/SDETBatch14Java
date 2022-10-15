@@ -36,7 +36,7 @@ class Visa extends CreditCard{
     void calculateInterest() {
         double interestAmount=interest*balance/100;
         System.out.println();
-        System.out.println("interest Amount "+interestAmount+5);
+        System.out.println("interest Amount "+(interestAmount+5));
     }
 }
 
@@ -50,6 +50,6 @@ class AX extends CreditCard{
     void calculateInterest() {
         double interestAmount=interest*balance/100;
         System.out.println();
-        System.out.println("Interest Amount "+interestAmount+10);
+        System.out.println("Interest Amount "+(interestAmount+10));
     }
 }
