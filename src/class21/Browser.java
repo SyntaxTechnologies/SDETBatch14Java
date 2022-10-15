@@ -17,9 +17,10 @@ public class Browser {
 }
 
 class Chrome extends Browser{
-
-    void openBrowser(){
+    @Override
+   public void openBrowser(){
         System.out.println("opening the browser in less than 1 sec");
+
     }
 
 }
