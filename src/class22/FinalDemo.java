@@ -8,7 +8,7 @@ public class FinalDemo {
     }
 }
 
-final class  Phone{
+ class  Phone{
     final int RAM=12;
 
      void takePics(){
@@ -17,10 +17,9 @@ final int number=10;
     }
 }
 
-/*
-class Iphone extends Phone{
+final class Iphone extends Phone{
 
     void takePics(){
 
     }
-}*/
+}

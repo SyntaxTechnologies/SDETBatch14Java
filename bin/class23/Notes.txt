@@ -1,0 +1,45 @@
+Method Overriding:
+     Method overriding allows us to have same  methods in parent and child classes.
+Why we should override a method?
+    1) when we inherit from a class everything other than private methods and constructors is inherited if we
+    don't like any method from the parent we can override.
+    2) it helps us achieve polymorphism.
+what is the syntax to override a method:
+    1) First there must be a parent child relationship.
+    2) In the child class just redefine the method.
+Type casting in objects:
+    As we can type cast in the primitive data types we can also type cast objects.
+    like storing the object of a child class in a variable of parent type.
+Why we should type cast objects?
+    with the help of type casting we can start storing the objects of child classes in an array of type parent.
+what is the syntax to type cast?
+    its same as primitive type caseting for example if we have an animal class and animal class has a child class Cat
+    we can do
+    Animal animal=new Cat();
+    parent name[] arr={new childclass name()}
+polymorphism:
+    polymorphism is the ability of a method to take on many forms based on the object or the parameters that we pass
+    to the method.
+Types of polymorphism:
+    There are two types of polymorphism. 1) compile time/static/early binding or run time/dynamic or late binding.
+    compile time/static/early binding:
+        When we use method overloading to achieve polymorphism it is called compile time polymorphism.
+    Run time/dynamic or late binding:
+        When we use method overriding to achieve polymorphism then it is called Run time polymorphism.
+
+final Keyword:
+    final keyword is just like any other keyword in java like class package void etc.
+    There are three man uses of final keyword.
+    1) If we use final keyword with a class no other class can inherit from that class.
+    2) If we use it with a method name no child class can override that method.
+    3) If we use it a field once the value has been assigned to that field no one can change it value afterwards.
+
+
+
+
+
+
+
+
+
+
