@@ -5,6 +5,7 @@ public abstract class DataBase {
     abstract void readData();
     abstract void writeData();
     abstract void closeDatabase();
+
 }
 /*
 Hover over the error and click on the implement methods option
