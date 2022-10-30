@@ -20,6 +20,7 @@ public class Task1 {
         System.out.println(names.contains("Dam"));
         System.out.println(names.size());
         System.out.println(names);
+        // Break till 12:01
 
 
     }
