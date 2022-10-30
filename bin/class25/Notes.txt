@@ -1,0 +1,18 @@
+Collections Framework:
+    Collection framework is collection of multiple classes and interfaces which help us process the data
+    efficiently and easily.
+why we should learn about it.
+    1) Its very flexible.
+    2) Provide ready-made methods that we can just use.
+what is the Syntax?
+    Its similar how we create the object of any class, but we use <> to specify the name of the class whose objects
+    we are going to store in that class.
+Issues with Collections framework:
+    1) Collection framework does not work with primitive datatypes(solution is use wrapper classes).
+
+Wrapper classes:
+    wrapper classes are object types for all primitive types.
+Boxing:
+    converting the primitive data type to its corresponding wrapper type.
+
+
