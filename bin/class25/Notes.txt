@@ -10,9 +10,25 @@ what is the Syntax?
 Issues with Collections framework:
     1) Collection framework does not work with primitive datatypes(solution is use wrapper classes).
 
+Note: frequently asked in interviews!!!!!!!
+
 Wrapper classes:
     wrapper classes are object types for all primitive types.
 Boxing:
-    converting the primitive data type to its corresponding wrapper type.
+    converting the primitive data type to its corresponding wrapper type by explicitly calling methods.
+    int num=10;
+            // boxing or manual conversion from primitive to wrapper type
+          //  Integer wrappedNum=Integer.valueOf(num);
+Auto Boxing:
+    converting the primitive data type to its corresponding wrapper type by simply assigning the values.
+     Integer wrappedNum=10;
+Unboxing:
+    Converting a wrapper type to its corresponding primtive type by explicitly calling a method.
+      //unboxing converting a wrapper type to a corresponding primitive type
+          //  int num2=wrappedNum.intValue();
+Auto Unboxing:
+    converting a wrapper to corresponding primitive automatically by just assigning the value.
+    Integer wrappedNum=new Integer(10);
+    int num2=wrappedNum;
 
 
