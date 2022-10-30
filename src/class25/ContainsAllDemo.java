@@ -20,7 +20,6 @@ public class ContainsAllDemo {
  /*       System.out.println(beautyProducts.contains("lipstick"));
         System.out.println(beautyProducts.contains("Mascara"));
         System.out.println(beautyProducts.contains("eyeLinear"));*/
-
         ArrayList<String> cosmetics=new ArrayList<>();
         cosmetics.add("Dove Soap");
         cosmetics.add("Conditioner");
