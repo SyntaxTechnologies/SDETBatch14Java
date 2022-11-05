@@ -1,0 +1,17 @@
+Collections Framework:
+    It's a collection of classes and interfaces that help us store and manipulate the data efficiently.
+Why we should use Collections Framework?
+    1) It's flexible( we don't need to provide size beforehand).
+    2) It's dynamic(all the classes can increase and decrease their size at run time).
+    3) There are built-in methods to perform common tasks.
+    4) pre-built data structures.
+downsides of Collections framework:
+    1)we can't use primitive data types we have to use wrapper classes which occupy 4 times more memory
+    than a primitive.
+    int num=10 // 4 memory locations
+    Integer num1=10; //16 memory locations
+Wrapper:
+    Wrapper classes are object types for all the primitive types
+why should we learn about the wrapper types?
+    1) Because collections framework only supports wrapper types.
+    2)
