@@ -14,4 +14,37 @@ Wrapper:
     Wrapper classes are object types for all the primitive types
 why should we learn about the wrapper types?
     1) Because collections framework only supports wrapper types.
-    2)
+    2) There are built-in methods to perform common tasks.
+
+Downsides:
+1)we can't use primitive data types we have to use wrapper classes which occupy 4 times more memory
+    than a primitive.
+    int num=10 // 4 memory locations
+    Integer num1=10; //16 memory locations
+Boxing:
+    Converting a primitive to its corresponding wrapper type by manually calling methods.
+    int pnum=10;
+    Integer wnum=new Integer(pnum);
+AutoBoxing:
+    conversion from primitive to a wrapper type but here we don't need to call any methods explicitly.
+     int pnum=10;
+     Integer wnum=pnum;
+Unboxing:
+    converting a wrapper to a primitive by calling a method.
+    Integer wnum=new Integer(10);
+    int pnum=wnum.intValue();
+AutoUnboxing:
+    converting a wrapper to a primitive without calling any methods.
+    Integer wnum=new Integer(10);
+    int pnum=wnum;
+ArrayList Class:
+    it is a classes in collections framework that allows us to store data like an array.
+    some common methods from this class are 1) add() 2) remove 3) contains 4) size().
+Iterator:
+    its a mechanism that allows us to iterate and delete data from any class in collections framework.
+    it has hasNext() next() remove().
+why we should learn about Iterator?
+    Because loops are not safe when we perform an operation that can change the size of a data structure.
+
+
+
