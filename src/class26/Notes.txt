@@ -45,6 +45,22 @@ Iterator:
     it has hasNext() next() remove().
 why we should learn about Iterator?
     Because loops are not safe when we perform an operation that can change the size of a data structure.
+ArrayList Vs LinkedList
+    Both of the classes implement the list interface which means both of them will have same methods.
+ArrayList:
+    uses an array behind the scenes to store the data.
+    we should use arrayList when we are retrieving the data most of the time and not inserting the data in the start or in-between
+    if we have to shift the data.
+    to the list.
+LinkedList:
+    Linked-list does not store the data in consecutive memory locations that's why it is easier to insert and remove the data from anywhere
+    in a list.
+    if you are going to manipulate the data(shifting of elements) always use linked-list.
 
+if most of the time you use add or remove method then use linkedList.
+if most of the time you use get method use ArrayList.
 
+Sets
+
+ Break till 1:50
 
