@@ -1,0 +1,22 @@
+ArrayList vs LinkedList:
+    ArrayList and LinkedList both implement the list interface. But internal implementation is different. LinkedList
+    is better for manipulation(adding new data at run time in-between or in the start of the list or removing
+    data) of data. ArrayList is better when most of the time we use get method.
+Sets:
+    Sets are another set of datastructures in collections framework that allow us to store only unique data.
+    as we can convert any data structure in collections framework we can use sets to remove duplicate data from
+    Lists we can also use sets.
+Types of sets:
+    There are many types of Sets, but we will be discussing only 1) HashSet 2) LinkedHashset 3) TreeSet.
+HashSet:
+    Upside: It is most memory efficient, and it requires less space as compared to other types of sets.
+    Downside: HashSet does not maintain the insertion order.
+LinkedHashSet:
+    UpSide: order of the elements is maintained.
+    DownSide: it takes more memory, and it is slower than Hashset.
+TreeSet:
+    UpSide: Data is sorted in natural order.
+    DownSide: It is slowest, and it takes more memory than Hashset.
+Demos of storing the objects of a custom class
+and how we can iterate through sets
+
