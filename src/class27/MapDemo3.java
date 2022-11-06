@@ -1,7 +1,7 @@
 package class27;
 
+import java.util.Collection;
 import java.util.HashMap;
-import java.util.Set;
 
 public class MapDemo3 {
     public static void main(String[] args) {
@@ -14,9 +14,9 @@ public class MapDemo3 {
         System.out.println(fruit);
         System.out.println(fruit.get("Banana"));
 
-        Set<String> keySet=fruit.keySet(); //returns all the keys in the form of Set
+        Collection<String> keySet=fruit.keySet(); //returns all the keys in the form of Set
         System.out.println(keySet);
-        var values=fruit.values(); // returns all the values in the form of a collection
+        Collection<Double> values=fruit.values(); // returns all the values in the form of a collection
         System.out.println(values);
 
 

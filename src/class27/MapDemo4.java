@@ -1,8 +1,6 @@
 package class27;
 
 import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Set;
 
 public class MapDemo4 {
     public static void main(String[] args) {
@@ -12,7 +10,7 @@ public class MapDemo4 {
         fruit.put("Orange",4.99);
         fruit.put("Banana",10.1);
 
-        Set<String> allKeys=fruit.keySet(); // getting all the  keys in the form of a set
+    /*    Collection<String> allKeys=fruit.keySet(); // getting all the  keys in the form of a set
         System.out.println(allKeys);
 
         Iterator<String> iterator= allKeys.iterator(); // Getting an iterator on that  set
@@ -21,8 +19,8 @@ public class MapDemo4 {
             if(item.contains("n")){
                 iterator.remove();
             }
-        }
-
+        }*/
+        fruit.keySet().removeIf(x-> x.contains("n"));
         System.out.println(fruit);
 
 
