@@ -10,5 +10,6 @@ public class ArrayListDemo {
         dogs.add(new Dog("Tomy","Black","German"));
         dogs.add(new Dog("Jony","White","BullDog"));
         dogs.add(new Dog("Kimi","Brown","German"));
+
     }
 }
