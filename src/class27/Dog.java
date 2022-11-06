@@ -6,9 +6,9 @@ public class Dog {
     private String breed;
 
     public Dog(String name, String color, String breed) {
-        this.name = name;
-        this.color = color;
-        this.breed = breed;
+       setName(name);
+       setBreed(breed);
+       setColor(color);
     }
 
     public String getName() {
@@ -33,5 +33,14 @@ public class Dog {
 
     public void setBreed(String breed) {
         this.breed = breed;
+    }
+
+    @Override
+    public String toString() {
+        return "Dog{" +
+                "name='" + name + '\'' +
+                ", color='" + color + '\'' +
+                ", breed='" + breed + '\'' +
+                '}';
     }
 }
