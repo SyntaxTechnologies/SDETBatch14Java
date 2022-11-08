@@ -8,7 +8,7 @@ public class ArrayListVsLinkedList {
 
         LinkedList<String> linkedList=new LinkedList<>();
 
-        long startTime = System.currentTimeMillis();
+        long startTime = System.currentTimeMillis(); // gives you time in system milliseconds
         for (int i = 0; i < 1000000; i++) {
             linkedList.add(0,"Test");
         }

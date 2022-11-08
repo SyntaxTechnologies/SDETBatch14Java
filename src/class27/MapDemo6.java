@@ -9,15 +9,5 @@ public class MapDemo6 {
         fruit.put("Mango",1.99);
         fruit.put("Orange",4.99);
         fruit.put("Banana",10.1);
-
-
-
-
-
-
-
-
-
-
     }
 }
