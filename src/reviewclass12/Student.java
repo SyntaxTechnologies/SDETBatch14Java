@@ -28,6 +28,10 @@ public class Student {
                 '}';
     }
 
+    /*
+    if we don't override this method java by default checks the address only
+    to figure out if two objects are same or not
+     */
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

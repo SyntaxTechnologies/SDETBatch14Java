@@ -23,5 +23,6 @@ public class ListDemoWithCustomClass {
         System.out.println(students.contains(joshAgain));
         System.out.println(joshAgain);
         System.out.println(students);
+
     }
 }
