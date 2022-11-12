@@ -18,6 +18,12 @@ public class MapDemo5 {
         var entrySet=items.entrySet();
      /*   var dog=new Dog();
         var number=10.2;*/
+        System.out.println(entrySet);
+
+        for (var item:entrySet
+             ) {
+            System.out.println(item);
+        }
 
 
 
