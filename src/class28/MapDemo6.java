@@ -11,16 +11,18 @@ public class MapDemo6 {
         items.put("Keyboard",100.0);
         items.put("Flower",1.0);
 
-        var iterator=items.entrySet().iterator();
+   /*     var iterator=items.entrySet().iterator();
 
         while (iterator.hasNext()){
-            var item=iterator.next();
+            var item=iterator.next(); //gets the items
             var key=item.getKey();
             var value=item.getValue();
             if(key.contains("e")&& value>10){
                 iterator.remove();
             }
         }
+*/
+        items.entrySet().removeIf(entry-> entry.getKey().contains("e")&&entry.getValue()>10);
         System.out.println(items);
 
     }
