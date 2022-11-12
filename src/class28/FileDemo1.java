@@ -14,6 +14,9 @@ public class FileDemo1 {
         var properties=new Properties(); // that special software which helps us read data from that file
         properties.load(fileInputStream); //loads all the data from the file inside(Memory)
         System.out.println(properties.getProperty("URl"));
+        System.out.println(properties.getProperty("password"));
+        fileInputStream.close(); // closes the file
+        // Break till 1:145
 
     }
 }

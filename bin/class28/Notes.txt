@@ -17,3 +17,10 @@ LinkedHashMap:
 TreeMap:
     TreeMap sorts the data in natural order but insertion is very slow. it takes more memory to keep the data in sorted
     order.
+FileHandling:
+    Reading writing data to files with the help of java is called file handling.
+Steps to read data from any files on any computer:
+    1)location of file on our computer.
+    2) we need to go to that location.
+    3) we need a software that can read and write data to that file for exmaple we need Microsoft Excel if we
+    want to work with xlsx files.
