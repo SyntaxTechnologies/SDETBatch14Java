@@ -1,0 +1,19 @@
+Maps in Java:
+    Maps are datastructures that allow us to store key value pairs.
+Why we should use Maps?
+    Whenever we have to store key value pairs instead of using arrays or 2D arrays or ArrayLists we should use
+    Maps because they provide very good performance and have built-in methods to process the data.
+What is the syntax of Maps?
+    Map<DataTypeOfKey,DataTypeOfValue> anyName=new MapClass<>();
+    for example if we have to store fruit and their prices we will do something like this
+    HashMap<String,Double> fruit=new HashMap<>();
+Types Of Maps:
+    1) HashMap 2) LinkedHashMap 3) TreeMap
+HashMap:
+    This is the most widely used type of map reason, it is fastest and occupies less memory.
+    we should always use Hashmap if there are no requirements for insertion order or sorting.
+LinkedHashMap:
+    LinkedHashMap keeps the insertion order, but it takes a little more memory than HashMap and is a little slower.
+TreeMap:
+    TreeMap sorts the data in natural order but insertion is very slow. it takes more memory to keep the data in sorted
+    order.
