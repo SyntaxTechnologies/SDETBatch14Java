@@ -29,7 +29,7 @@ public class MethodsDemo {
       var data=  ExcelReader.read("/Users/apple/IdeaProjects/SDETBatch14Java/Data/Test.xlsx");
 
         System.out.println(data.get(1));
-        LinkedHashMap<String,String> map=data.get(2);
+        Map<String,String> map=data.get(2);
         System.out.println(map.get("Age"));
 
     }
