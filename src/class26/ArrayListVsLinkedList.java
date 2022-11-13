@@ -1,6 +1,5 @@
 package class26;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class ArrayListVsLinkedList {
@@ -16,7 +15,7 @@ public class ArrayListVsLinkedList {
         long endTime = System.currentTimeMillis();
 
         System.out.println("LinkedList "+(endTime-startTime));
-
+/*
         ArrayList<String> arrayList=new ArrayList<>();
         long startTimeA = System.currentTimeMillis();
         for (int i = 0; i < 1000000; i++) {
@@ -25,7 +24,7 @@ public class ArrayListVsLinkedList {
 
         long endTimeA = System.currentTimeMillis();
 
-        System.out.println("ArrayList "+(endTimeA-startTimeA));
+        System.out.println("ArrayList "+(endTimeA-startTimeA));*/
 
 
 
