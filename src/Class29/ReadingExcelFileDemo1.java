@@ -24,9 +24,10 @@ public class ReadingExcelFileDemo1 {
         // getting the first row so that we can use it as keys for our map
         Row headerRow= sheet.getRow(0);
         // the Map that will store the data for each row
-        LinkedHashMap<String,String> rowMap=new LinkedHashMap<>();
+
         // A loop that goes through all the rows that contain the data.
         for (int rowNo = 1; rowNo < noOfRow; rowNo++) {
+            LinkedHashMap<String,String> rowMap=new LinkedHashMap<>();
             // get a dataRow from sheet one by one through loop
             Row dataRow=sheet.getRow(rowNo);
             // getting the count of how many cells contain the data
@@ -35,9 +36,12 @@ public class ReadingExcelFileDemo1 {
             for (int cellNo = 0; cellNo < noOfCell; cellNo++) {
 
                 //getting keys from header row and values from data row
-                rowMap.put(headerRow.getCell(cellNo).toString(),dataRow.getCell(cellNo).toString());
+                String key=headerRow.getCell(cellNo).toString();
+                String value=dataRow.getCell(cellNo).toString();
+                rowMap.put(key,value);
             }
             System.out.println(rowMap);
+
 
         }
 
