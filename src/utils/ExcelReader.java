@@ -11,7 +11,9 @@ import java.util.LinkedHashMap;
 
 public class ExcelReader {
 
+    // Break till 1:25
 
+    // We created this method so that everytime we need to read the data from Excel file we can reuse this method
     public static ArrayList<LinkedHashMap<String, String>> read(String path) throws IOException {
         // Reads the data from HardDrive brings it to RAM in the raw form 10101010101010
         // In simple words we can say computer has navigated to that file
