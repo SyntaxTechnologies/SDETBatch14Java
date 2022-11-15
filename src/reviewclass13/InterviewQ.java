@@ -11,6 +11,7 @@ public class InterviewQ {
 
     public static void main(String[] args) {
 
+        //Break till 9:10
         String str="bdfjhdfbewqbcnsdfsdf";
 
         System.out.println(getCount(str));
@@ -19,14 +20,14 @@ public class InterviewQ {
     public static Map<Character,Integer> getCount(String str){
         char[] charArr=str.toCharArray();
         Map<Character,Integer> map=new HashMap<>();
-        for(char c:charArr){
+        for(char niazi:charArr){
 
-            if(map.get(c)==null){
-                map.put(c,1);
+            if(map.get(niazi)==null){
+                map.put(niazi,1);
             }else{
-                int count=map.get(c);
+                int count=map.get(niazi);
                 count=count+1;
-                map.put(c,count);
+                map.put(niazi,count);
             }
         }
 

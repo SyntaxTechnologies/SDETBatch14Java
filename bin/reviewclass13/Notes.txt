@@ -8,3 +8,35 @@ Difference between HashMap and HashTable:
     Hashtable is thread safe while hashMap is not.
 Maps:
     How can we iterate through a map
+
+Important concepts for your coding tests:
+if else conditions
+loops
+arrays
+String class methods
+ArrayList
+Maps
+
+important concepts for verbal interviews:
+OOPs
+for Frameworks:
+1) how Classes work for example how to create a class how to declare instance varibales how to use them inside
+methods
+2) Go through all the concepts of methods
+3) types of varibales like instance static(you will be using heavily)
+5) inheritance
+6) ArrayList and maps
+FileHandling in java:
+    Reading writing and manipulating files.
+
+Why we should learn about file handling?
+  1) We don't store sensitive data inside the code it might get exposed when we push the code to GitHub.
+  2) Hardcoding the data or credentials in code is a very bad practice becuase for any reason if you have
+  to change the credentials or that data you will have to change it everywhere which will take a lot of time
+  3) when we have to perform data driven testing we use a lot of data to perform this type of testing
+  it is not feasible to put all of that data in code.
+Steps to Read from any file in java:
+    1) First we need the location(path)
+    2) Use a class to navigate to that location (for example FileInputStream)
+    3) We need a class that can help us read/write data to that special type of file for example
+    for .properties file we use Properties and for excel we use XSSFWorkbook
