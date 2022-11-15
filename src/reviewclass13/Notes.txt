@@ -1,0 +1,10 @@
+HashTable:
+    HashTable is previous version of HashMap. Hashtable is thread safe. it uses synchronization to achieve
+    thread safety and because of this it is slow as compared to hashMap.
+why we should not use Hashtable.
+    As a Tester its very rare that we will be writing multithreaded code and if you don't write multithreaded
+    code but still use HashTable it will make our code slow for no benefit.
+Difference between HashMap and HashTable:
+    Hashtable is thread safe while hashMap is not.
+Maps:
+    How can we iterate through a map
