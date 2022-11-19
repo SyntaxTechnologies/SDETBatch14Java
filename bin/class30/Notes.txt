@@ -1,0 +1,3 @@
+Exception:
+    Exceptions are unwanted behaviours which occurs during runtime and can terminate programs abruptly or can change the
+    normal behaviour of a program.

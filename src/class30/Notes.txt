@@ -1,0 +1,10 @@
+Exception:
+    Exceptions are unwanted behaviours which occurs during runtime and can terminate programs abruptly or can change the
+    normal behaviour of a program.
+Why should we handle exceptions?
+    1) When we handle exceptions it leads to a very good user experience.
+    2) we can read the error messages and can figure what we are doing wrong.
+    3) When we handle the exceptions properly only the problematic code will not execute rest of teh code will still
+    continue to work.
+How to Handle the exceptions:
+  //Break till 11:45
