@@ -8,3 +8,20 @@ Why should we handle exceptions?
     continue to work.
 How to Handle the exceptions:
   //Break till 11:45 Record
+
+Most important for your framework:
+classes and objects
+methods
+inheritance
+loops
+if else
+String class
+Collection framework(List and Map)
+Arrays
+file handling
+======================
+verbal interview Questions
+all OOPS
+
+Break till 1:45
+

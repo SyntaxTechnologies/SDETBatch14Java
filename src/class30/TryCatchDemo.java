@@ -21,12 +21,12 @@ public class TryCatchDemo {
         }
     }
     public static void doSomething(){
- /*       String name=null;
-        System.out.println(name.length());*/
-       /* int arr[]=new int[1];
-        System.out.println(arr[10]);*/
+       String name=null;
+        System.out.println(name.length());
+        int arr[]=new int[1];
+        System.out.println(arr[10]);
        /* String str="dsfnksd";
         str.charAt(20);*/
-        System.out.println(101/0);
+        //System.out.println(101/0);
     }
 }
